@@ -125,7 +125,7 @@ if __name__ == '__main__':
 		stock_2 = "oil"
 	elif(Machine_2["nb_wheels"]/4 < Machine_2["nb_motors"]):
 		Machine_2["priority"]=2
-		Machine_2["priority"]=1
+		Machine_1["priority"]=1
 		stock_1 = "oil"
 		stock_2 = "oil"
 	else:
